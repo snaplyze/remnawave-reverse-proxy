@@ -4614,7 +4614,7 @@ EOL
 
     # Create config profile
     echo -e "${COLOR_YELLOW}${LANG[CREATING_CONFIG_PROFILE]}${COLOR_RESET}"
-    read config_profile_uuid inbound_uuid <<< $(create_config_profile "$domain_url" "$token" "GermanyConfig" "$GERMANY_DOMAIN" "$private_key")
+    read config_profile_uuid inbound_uuid <<< $(create_config_profile "$domain_url" "$token" "Germany" "$GERMANY_DOMAIN" "$private_key")
     echo -e "${COLOR_GREEN}${LANG[CONFIG_PROFILE_CREATED]}${COLOR_RESET}"
 
     # Create node with config profile binding
@@ -5117,7 +5117,7 @@ EOL
 
     # Create config profile
     echo -e "${COLOR_YELLOW}${LANG[CREATING_CONFIG_PROFILE]}${COLOR_RESET}"
-    read config_profile_uuid inbound_uuid <<< $(create_config_profile "$domain_url" "$token" "GermanyConfig" "$GERMANY_DOMAIN" "$private_key")
+    read config_profile_uuid inbound_uuid <<< $(create_config_profile "$domain_url" "$token" "Germany" "$GERMANY_DOMAIN" "$private_key")
     echo -e "${COLOR_GREEN}${LANG[CONFIG_PROFILE_CREATED]}${COLOR_RESET}"
 
     # Create node with config profile binding
