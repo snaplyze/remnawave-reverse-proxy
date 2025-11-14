@@ -83,7 +83,7 @@ set_language() {
                 [MENU_1]="Install Remnawave Components"
                 [MENU_2]="Reinstall panel/node"
                 [MENU_3]="Manage Panel/Node"
-                [MENU_4]="Install random template for selfsteal node"
+                [MENU_4]="Install random template for germany node"
                 [MENU_5]="Custom subscriptions by legiz"
                 [MENU_6]="Extensions by distillium"
                 [MENU_7]="Manage IPv6"
@@ -181,7 +181,7 @@ set_language() {
                 [INSTALLING_NODE]="Installing node"
                 [ENTER_PANEL_DOMAIN]="Enter panel domain (e.g. panel.example.com):"
                 [ENTER_SUB_DOMAIN]="Enter subscription domain (e.g. sub.example.com):"
-                [ENTER_NODE_DOMAIN]="Enter selfsteal domain for node (e.g. node.example.com):"
+                [ENTER_NODE_DOMAIN]="Enter germany domain for node (e.g. node.example.com):"
                 [ENTER_CF_TOKEN]="Enter your Cloudflare API token or global API key:"
                 [ENTER_CF_EMAIL]="Enter your Cloudflare registered email:"
                 [CHECK_CERTS]="Checking certificates..."
@@ -265,8 +265,8 @@ set_language() {
                 [INVALID_REINSTALL_CHOICE]="Invalid choice. Please select 0-3."
                 [POST_PANEL_MESSAGE]="Panel successfully installed!"
                 [POST_PANEL_INSTRUCTION]="To install the node, follow these steps:\n1. Run this script on the server where the node will be installed.\n2. Select 'Install Remnawave Components', then 'Install only the node'."
-                [SELFSTEAL_PROMPT]="Enter the selfsteal domain for the node (e.g. node.example.com):"
-                [SELFSTEAL]="Enter the selfsteal domain for the node specified during panel installation:"
+                [GERMANY_PROMPT]="Enter the germany domain for the node (e.g. node.example.com):"
+                [GERMANY]="Enter the germany domain for the node specified during panel installation:"
                 [PANEL_IP_PROMPT]="Enter the IP address of the panel to establish a connection between the panel and the node:"
                 [IP_ERROR]="Enter a valid IP address in the format X.X.X.X (e.g., 192.168.1.1)"
                 [CERT_PROMPT]="Enter the certificate obtained from the panel (paste the content and press Enter twice):"
@@ -304,7 +304,7 @@ set_language() {
                 [CHECK_DOMAIN_IP_FAIL]="Failed to determine the domain or server IP address."
                 [CHECK_DOMAIN_IP_FAIL_INSTRUCTION]="Ensure that the domain %s is correctly configured and points to this server (%s)."
                 [CHECK_DOMAIN_CLOUDFLARE]="The domain %s points to a Cloudflare IP (%s)."
-                [CHECK_DOMAIN_CLOUDFLARE_INSTRUCTION]="Cloudflare proxying is not allowed for the selfsteal domain. Disable proxying (switch to 'DNS Only')."
+                [CHECK_DOMAIN_CLOUDFLARE_INSTRUCTION]="Cloudflare proxying is not allowed for the germany domain. Disable proxying (switch to 'DNS Only')."
                 [CHECK_DOMAIN_MISMATCH]="The domain %s points to IP address %s, which differs from this server's IP (%s)."
                 [CHECK_DOMAIN_MISMATCH_INSTRUCTION]="For proper operation, the domain must point to the current server."
                 [NO_PANEL_NODE_INSTALLED]="Panel or node is not installed. Please install panel or node first."
@@ -475,7 +475,7 @@ set_language() {
                 [MENU_1]="Установка компонентов Remnawave"
                 [MENU_2]="Переустановить панель/ноду"
                 [MENU_3]="Управление панелью/нодой"
-                [MENU_4]="Установить случайный шаблон для selfsteal ноды"
+                [MENU_4]="Установить случайный шаблон для germany ноды"
                 [MENU_5]="Кастомные подписки от legiz"
                 [MENU_6]="Управление расширениями от distillium"
                 [MENU_7]="Управление IPv6"
@@ -573,7 +573,7 @@ set_language() {
                 [INSTALLING_NODE]="Установка ноды"
                 [ENTER_PANEL_DOMAIN]="Введите домен панели (например, panel.example.com):"
                 [ENTER_SUB_DOMAIN]="Введите домен подписки (например, sub.example.com):"
-                [ENTER_NODE_DOMAIN]="Введите selfsteal домен для ноды (например, node.example.com):"
+                [ENTER_NODE_DOMAIN]="Введите germany домен для ноды (например, node.example.com):"
                 [ENTER_CF_TOKEN]="Введите Cloudflare API токен или глобальный ключ:"
                 [ENTER_CF_EMAIL]="Введите зарегистрированную почту Cloudflare:"
                 [CHECK_CERTS]="Проверка сертификатов..."
@@ -657,7 +657,7 @@ set_language() {
                 [INVALID_REINSTALL_CHOICE]="Неверный выбор. Выберите 0-3."
                 [POST_PANEL_MESSAGE]="Панель успешно установлена!"
                 [POST_PANEL_INSTRUCTION]="Для установки ноды выполните следующие шаги:\n1. Запустите этот скрипт на сервере, где будет установлена нода.\n2. Выберите 'Установка компонентов Remnawave', а затем 'Установить только ноду'."
-                [SELFSTEAL]="Введите selfsteal домен для ноды, который указали при установке панели:"
+                [GERMANY]="Введите germany домен для ноды, который указали при установке панели:"
                 [PANEL_IP_PROMPT]="Введите IP адрес панели, чтобы установить соединение между панелью и ноды:"
                 [IP_ERROR]="Введите корректный IP-адрес в формате X.X.X.X (например, 192.168.1.1)"
                 [CERT_PROMPT]="Введите сертификат, полученный от панели (вставьте содержимое и 2 раза нажмите Enter):"
@@ -695,7 +695,7 @@ set_language() {
                 [CHECK_DOMAIN_IP_FAIL]="Не удалось определить IP-адрес домена или сервера."
                 [CHECK_DOMAIN_IP_FAIL_INSTRUCTION]="Убедитесь, что домен %s правильно настроен и указывает на этот сервер (%s)."
                 [CHECK_DOMAIN_CLOUDFLARE]="Домен %s указывает на IP Cloudflare (%s)."
-                [CHECK_DOMAIN_CLOUDFLARE_INSTRUCTION]="Проксирование Cloudflare недопустимо для selfsteal домена. Отключите проксирование (переключите в режим 'DNS Only')."
+                [CHECK_DOMAIN_CLOUDFLARE_INSTRUCTION]="Проксирование Cloudflare недопустимо для germany домена. Отключите проксирование (переключите в режим 'DNS Only')."
                 [CHECK_DOMAIN_MISMATCH]="Домен %s указывает на IP-адрес %s, который отличается от IP этого сервера (%s)."
                 [CHECK_DOMAIN_MISMATCH_INSTRUCTION]="Для корректной работы домен должен указывать на текущий сервер."
                 [NO_PANEL_NODE_INSTALLED]="Панель или нода не установлены. Пожалуйста, сначала установите панель или ноду."
@@ -2663,7 +2663,7 @@ spinner() {
   printf "\r\033[K" > /dev/tty
 }
 
-#Manage Template for steal
+#Manage Template for germany
 show_template_source_options() {
     echo -e ""
     echo -e "${COLOR_GREEN}${LANG[CHOOSE_TEMPLATE_SOURCE]}${COLOR_RESET}"
@@ -2811,7 +2811,7 @@ randomhtml() {
     cd /opt/
     rm -rf simple-web-templates-main/ sni-templates-main/ nothing-sni-main/
 }
-#Manage Template for steal
+#Manage Template for germany
 
 install_packages() {
     echo -e "${COLOR_YELLOW}${LANG[INSTALL_PACKAGES]}${COLOR_RESET}"
@@ -3689,7 +3689,7 @@ create_node() {
     local config_profile_uuid=$3
     local inbound_uuid=$4
     local node_address="${5:-172.30.0.1}"
-    local node_name="${6:-Steal}"
+    local node_name="${6:-Germany}"
 
     local node_data=$(cat <<EOF
 {
@@ -3771,7 +3771,7 @@ create_config_profile() {
     local name=$3
     local domain=$4
     local private_key=$5
-    local inbound_tag="${6:-Steal}"
+    local inbound_tag="${6:-Germany}"
 
     local short_id=$(openssl rand -hex 8)
 
@@ -3836,7 +3836,7 @@ create_host() {
     local inbound_uuid=$3
     local address=$4
     local config_uuid=$5
-    local host_remark="${6:-Steal}"
+    local host_remark="${6:-Germany}"
 
     local request_body=$(jq -n --arg config_uuid "$config_uuid" --arg inbound_uuid "$inbound_uuid" --arg remark "$host_remark" --arg address "$address" '{
         inbound: {
@@ -4112,26 +4112,26 @@ install_remnawave() {
         exit 1
     fi
 
-    reading "${LANG[ENTER_NODE_DOMAIN]}" SELFSTEAL_DOMAIN
-    check_domain "$SELFSTEAL_DOMAIN" true false
+    reading "${LANG[ENTER_NODE_DOMAIN]}" GERMANY_DOMAIN
+    check_domain "$GERMANY_DOMAIN" true false
     local node_check_result=$?
     if [ $node_check_result -eq 2 ]; then
         echo -e "${COLOR_RED}${LANG[ABORT_MESSAGE]}${COLOR_RESET}"
         exit 1
     fi
 
-    if [ "$PANEL_DOMAIN" = "$SUB_DOMAIN" ] || [ "$PANEL_DOMAIN" = "$SELFSTEAL_DOMAIN" ] || [ "$SUB_DOMAIN" = "$SELFSTEAL_DOMAIN" ]; then
+    if [ "$PANEL_DOMAIN" = "$SUB_DOMAIN" ] || [ "$PANEL_DOMAIN" = "$GERMANY_DOMAIN" ] || [ "$SUB_DOMAIN" = "$GERMANY_DOMAIN" ]; then
         echo -e "${COLOR_RED}${LANG[DOMAINS_MUST_BE_UNIQUE]}${COLOR_RESET}"
         exit 1
     fi
 
     PANEL_BASE_DOMAIN=$(extract_domain "$PANEL_DOMAIN")
     SUB_BASE_DOMAIN=$(extract_domain "$SUB_DOMAIN")
-    SELFSTEAL_BASE_DOMAIN=$(extract_domain "$SELFSTEAL_DOMAIN")
+    GERMANY_BASE_DOMAIN=$(extract_domain "$GERMANY_DOMAIN")
 
     unique_domains["$PANEL_BASE_DOMAIN"]=1
     unique_domains["$SUB_BASE_DOMAIN"]=1
-    unique_domains["$SELFSTEAL_BASE_DOMAIN"]=1
+    unique_domains["$GERMANY_BASE_DOMAIN"]=1
 
     SUPERADMIN_USERNAME=$(generate_user)
     SUPERADMIN_PASSWORD=$(generate_password)
@@ -4340,7 +4340,7 @@ installation() {
     declare -A domains_to_check
     domains_to_check["$PANEL_DOMAIN"]=1
     domains_to_check["$SUB_DOMAIN"]=1
-    domains_to_check["$SELFSTEAL_DOMAIN"]=1
+    domains_to_check["$GERMANY_DOMAIN"]=1
 
     handle_certificates domains_to_check "$CERT_METHOD" "$LETSENCRYPT_EMAIL"
 
@@ -4356,14 +4356,14 @@ installation() {
     if [ "$CERT_METHOD" == "1" ]; then
         local base_domain=$(extract_domain "$PANEL_DOMAIN")
         local sub_base_domain=$(extract_domain "$SUB_DOMAIN")
-        local node_base_domain=$(extract_domain "$SELFSTEAL_DOMAIN")
+        local node_base_domain=$(extract_domain "$GERMANY_DOMAIN")
         PANEL_CERT_DOMAIN="$base_domain"
         SUB_CERT_DOMAIN="$sub_base_domain"
         NODE_CERT_DOMAIN="$node_base_domain"
     else
         PANEL_CERT_DOMAIN="$PANEL_DOMAIN"
         SUB_CERT_DOMAIN="$SUB_DOMAIN"
-        NODE_CERT_DOMAIN="$SELFSTEAL_DOMAIN"
+        NODE_CERT_DOMAIN="$GERMANY_DOMAIN"
     fi
 
     cat >> /opt/remnawave/docker-compose.yml <<EOL
@@ -4547,7 +4547,7 @@ server {
 }
 
 server {
-    server_name $SELFSTEAL_DOMAIN;
+    server_name $GERMANY_DOMAIN;
     listen unix:/dev/shm/nginx.sock ssl proxy_protocol;
     http2 on;
 
@@ -4614,7 +4614,7 @@ EOL
 
     # Create config profile
     echo -e "${COLOR_YELLOW}${LANG[CREATING_CONFIG_PROFILE]}${COLOR_RESET}"
-    read config_profile_uuid inbound_uuid <<< $(create_config_profile "$domain_url" "$token" "StealConfig" "$SELFSTEAL_DOMAIN" "$private_key")
+    read config_profile_uuid inbound_uuid <<< $(create_config_profile "$domain_url" "$token" "GermanyConfig" "$GERMANY_DOMAIN" "$private_key")
     echo -e "${COLOR_GREEN}${LANG[CONFIG_PROFILE_CREATED]}${COLOR_RESET}"
 
     # Create node with config profile binding
@@ -4623,7 +4623,7 @@ EOL
 
     # Create host
     echo -e "${COLOR_YELLOW}${LANG[CREATE_HOST]}${COLOR_RESET}"
-    create_host "$domain_url" "$token" "$inbound_uuid" "$SELFSTEAL_DOMAIN" "$config_profile_uuid"
+    create_host "$domain_url" "$token" "$inbound_uuid" "$GERMANY_DOMAIN" "$config_profile_uuid"
 
     # Get UUID default squad
     echo -e "${COLOR_YELLOW}${LANG[GET_DEFAULT_SQUAD]}${COLOR_RESET}"
@@ -4684,9 +4684,9 @@ install_remnawave_panel() {
         exit 1
     fi
 
-    reading "${LANG[ENTER_NODE_DOMAIN]}" SELFSTEAL_DOMAIN
+    reading "${LANG[ENTER_NODE_DOMAIN]}" GERMANY_DOMAIN
 
-    if [ "$PANEL_DOMAIN" = "$SUB_DOMAIN" ] || [ "$PANEL_DOMAIN" = "$SELFSTEAL_DOMAIN" ] || [ "$SUB_DOMAIN" = "$SELFSTEAL_DOMAIN" ]; then
+    if [ "$PANEL_DOMAIN" = "$SUB_DOMAIN" ] || [ "$PANEL_DOMAIN" = "$GERMANY_DOMAIN" ] || [ "$SUB_DOMAIN" = "$GERMANY_DOMAIN" ]; then
         echo -e "${COLOR_RED}${LANG[DOMAINS_MUST_BE_UNIQUE]}${COLOR_RESET}"
         exit 1
     fi
@@ -5117,16 +5117,16 @@ EOL
 
     # Create config profile
     echo -e "${COLOR_YELLOW}${LANG[CREATING_CONFIG_PROFILE]}${COLOR_RESET}"
-    read config_profile_uuid inbound_uuid <<< $(create_config_profile "$domain_url" "$token" "StealConfig" "$SELFSTEAL_DOMAIN" "$private_key")
+    read config_profile_uuid inbound_uuid <<< $(create_config_profile "$domain_url" "$token" "GermanyConfig" "$GERMANY_DOMAIN" "$private_key")
     echo -e "${COLOR_GREEN}${LANG[CONFIG_PROFILE_CREATED]}${COLOR_RESET}"
 
     # Create node with config profile binding
     echo -e "${COLOR_YELLOW}${LANG[CREATING_NODE]}${COLOR_RESET}"
-    create_node "$domain_url" "$token" "$config_profile_uuid" "$inbound_uuid" "$SELFSTEAL_DOMAIN"
+    create_node "$domain_url" "$token" "$config_profile_uuid" "$inbound_uuid" "$GERMANY_DOMAIN"
 
     # Create host
     echo -e "${COLOR_YELLOW}${LANG[CREATE_HOST]}${COLOR_RESET}"
-    create_host "$domain_url" "$token" "$inbound_uuid" "$SELFSTEAL_DOMAIN" "$config_profile_uuid"
+    create_host "$domain_url" "$token" "$inbound_uuid" "$GERMANY_DOMAIN" "$config_profile_uuid"
 
     # Get UUID default squad
     echo -e "${COLOR_YELLOW}${LANG[GET_DEFAULT_SQUAD]}${COLOR_RESET}"
@@ -5159,9 +5159,9 @@ EOL
 install_remnawave_node() {
     mkdir -p /opt/remnawave && cd /opt/remnawave
 
-    reading "${LANG[SELFSTEAL]}" SELFSTEAL_DOMAIN
+    reading "${LANG[GERMANY]}" GERMANY_DOMAIN
 
-    check_domain "$SELFSTEAL_DOMAIN" true false
+    check_domain "$GERMANY_DOMAIN" true false
     local domain_check_result=$?
     if [ $domain_check_result -eq 2 ]; then
         echo -e "${COLOR_RED}${LANG[ABORT_MESSAGE]}${COLOR_RESET}"
@@ -5201,9 +5201,9 @@ install_remnawave_node() {
         exit 1
     fi
 
-SELFSTEAL_BASE_DOMAIN=$(extract_domain "$SELFSTEAL_DOMAIN")
+GERMANY_BASE_DOMAIN=$(extract_domain "$GERMANY_DOMAIN")
 
-unique_domains["$SELFSTEAL_BASE_DOMAIN"]=1
+unique_domains["$GERMANY_BASE_DOMAIN"]=1
 
 cat > docker-compose.yml <<EOL
 services:
@@ -5225,12 +5225,12 @@ installation_node() {
     install_remnawave_node
 
     declare -A domains_to_check
-    domains_to_check["$SELFSTEAL_DOMAIN"]=1
+    domains_to_check["$GERMANY_DOMAIN"]=1
 
     handle_certificates domains_to_check "$CERT_METHOD" "$LETSENCRYPT_EMAIL"
 
     if [ -z "$CERT_METHOD" ]; then
-        local base_domain=$(extract_domain "$SELFSTEAL_DOMAIN")
+        local base_domain=$(extract_domain "$GERMANY_DOMAIN")
         if [ -d "/etc/letsencrypt/live/$base_domain" ] && is_wildcard_cert "$base_domain"; then
             CERT_METHOD="1"
         else
@@ -5239,10 +5239,10 @@ installation_node() {
     fi
 
     if [ "$CERT_METHOD" == "1" ]; then
-        local base_domain=$(extract_domain "$SELFSTEAL_DOMAIN")
+        local base_domain=$(extract_domain "$GERMANY_DOMAIN")
         NODE_CERT_DOMAIN="$base_domain"
     else
-        NODE_CERT_DOMAIN="$SELFSTEAL_DOMAIN"
+        NODE_CERT_DOMAIN="$GERMANY_DOMAIN"
     fi
 
     cat >> /opt/remnawave/docker-compose.yml <<EOL
@@ -5291,7 +5291,7 @@ ssl_session_cache shared:MozSSL:10m;
 ssl_session_tickets off;
 
 server {
-    server_name $SELFSTEAL_DOMAIN;
+    server_name $GERMANY_DOMAIN;
     listen unix:/dev/shm/nginx.sock ssl proxy_protocol;
     http2 on;
 
@@ -5325,14 +5325,14 @@ EOL
 
     randomhtml
 
-    printf "${COLOR_YELLOW}${LANG[NODE_CHECK]}${COLOR_RESET}\n" "$SELFSTEAL_DOMAIN"
+    printf "${COLOR_YELLOW}${LANG[NODE_CHECK]}${COLOR_RESET}\n" "$GERMANY_DOMAIN"
     local max_attempts=5
     local attempt=1
     local delay=15
 
     while [ $attempt -le $max_attempts ]; do
         printf "${COLOR_YELLOW}${LANG[NODE_ATTEMPT]}${COLOR_RESET}\n" "$attempt" "$max_attempts"
-        if curl -s --fail --max-time 10 "https://$SELFSTEAL_DOMAIN" | grep -q "html"; then
+        if curl -s --fail --max-time 10 "https://$GERMANY_DOMAIN" | grep -q "html"; then
             echo -e "${COLOR_GREEN}${LANG[NODE_LAUNCHED]}${COLOR_RESET}"
             break
         else
@@ -5379,8 +5379,8 @@ add_node_to_panel() {
     fi
 
     while true; do
-        reading "${LANG[ENTER_NODE_DOMAIN]}" SELFSTEAL_DOMAIN
-        check_node_domain "$domain_url" "$token" "$SELFSTEAL_DOMAIN"
+        reading "${LANG[ENTER_NODE_DOMAIN]}" GERMANY_DOMAIN
+        check_node_domain "$domain_url" "$token" "$GERMANY_DOMAIN"
         if [ $? -eq 0 ]; then
             break
         fi
@@ -5411,14 +5411,14 @@ add_node_to_panel() {
     printf "${COLOR_GREEN}${LANG[GENERATE_KEYS_SUCCESS]}${COLOR_RESET}\n"
 
     echo -e "${COLOR_YELLOW}${LANG[CREATING_CONFIG_PROFILE]}${COLOR_RESET}"
-    read config_profile_uuid inbound_uuid <<< $(create_config_profile "$domain_url" "$token" "$entity_name" "$SELFSTEAL_DOMAIN" "$private_key" "$entity_name")
+    read config_profile_uuid inbound_uuid <<< $(create_config_profile "$domain_url" "$token" "$entity_name" "$GERMANY_DOMAIN" "$private_key" "$entity_name")
     echo -e "${COLOR_GREEN}${LANG[CONFIG_PROFILE_CREATED]}: $entity_name${COLOR_RESET}"
 
-    printf "${COLOR_YELLOW}${LANG[CREATE_NEW_NODE]}$SELFSTEAL_DOMAIN${COLOR_RESET}\n"
-    create_node "$domain_url" "$token" "$config_profile_uuid" "$inbound_uuid" "$SELFSTEAL_DOMAIN" "$entity_name"
+    printf "${COLOR_YELLOW}${LANG[CREATE_NEW_NODE]}$GERMANY_DOMAIN${COLOR_RESET}\n"
+    create_node "$domain_url" "$token" "$config_profile_uuid" "$inbound_uuid" "$GERMANY_DOMAIN" "$entity_name"
 
     echo -e "${COLOR_YELLOW}${LANG[CREATE_HOST]}${COLOR_RESET}"
-    create_host "$domain_url" "$token" "$inbound_uuid" "$SELFSTEAL_DOMAIN" "$config_profile_uuid" "$entity_name"
+    create_host "$domain_url" "$token" "$inbound_uuid" "$GERMANY_DOMAIN" "$config_profile_uuid" "$entity_name"
 
     echo -e "${COLOR_YELLOW}${LANG[GET_DEFAULT_SQUAD]}${COLOR_RESET}"
     local squad_uuids=$(get_default_squad "$domain_url" "$token")
