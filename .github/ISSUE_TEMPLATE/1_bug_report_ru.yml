@@ -10,9 +10,9 @@ body:
       label: '⚠️ Обязательные условия'
       description: Прежде чем создавать новый issue, убедитесь, что вы выполнили следующее
       options:
-        - label: Я прочитал [README](https://github.com/eGamesAPI/remnawave-reverse-proxy/blob/main/README.md)
-        - label: Я проверил существующие [Issues](https://github.com/eGamesAPI/remnawave-reverse-proxy/issues)
-        - label: Я обновился до [последнего релиза](https://github.com/eGamesAPI/remnawave-reverse-proxy/releases/latest)
+        - label: Я прочитал [README](https://github.com/snaplyze/remnawave-reverse-proxy/blob/main/README.md)
+        - label: Я проверил существующие [Issues](https://github.com/snaplyze/remnawave-reverse-proxy/issues)
+        - label: Я обновился до [последнего релиза](https://github.com/snaplyze/remnawave-reverse-proxy/releases/latest)
 
   - type: input
     id: os

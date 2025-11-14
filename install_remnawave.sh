@@ -4,7 +4,7 @@ SCRIPT_VERSION="2.2.2c"
 UPDATE_AVAILABLE=false
 DIR_REMNAWAVE="/usr/local/remnawave_reverse/"
 LANG_FILE="${DIR_REMNAWAVE}selected_language"
-SCRIPT_URL="https://raw.githubusercontent.com/eGamesAPI/remnawave-reverse-proxy/refs/heads/main/install_remnawave.sh"
+SCRIPT_URL="https://raw.githubusercontent.com/snaplyze/remnawave-reverse-proxy/refs/heads/main/install_remnawave.sh"
 
 COLOR_RESET="\033[0m"
 COLOR_GREEN="\033[1;32m"
@@ -2690,7 +2690,7 @@ randomhtml() {
     spinner_pid=$!
 
     template_urls=(
-        "https://github.com/eGamesAPI/simple-web-templates/archive/refs/heads/main.zip"
+        "https://github.com/snaplyze/simple-web-templates/archive/refs/heads/main.zip"
         "https://github.com/distillium/sni-templates/archive/refs/heads/main.zip"
         "https://github.com/prettyleaf/nothing-sni/archive/refs/heads/main.zip"
     )
@@ -2717,7 +2717,7 @@ randomhtml() {
     unzip -o main.zip &>/dev/null || { echo "${LANG[UNPACK_ERROR]}"; exit 0; }
     rm -f main.zip
 
-    if [[ "$selected_url" == *"eGamesAPI"* ]]; then
+    if [[ "$selected_url" == *"snaplyze"* ]]; then
         cd simple-web-templates-main/ || { echo "${LANG[UNPACK_ERROR]}"; exit 0; }
         rm -rf assets ".gitattributes" "README.md" "_config.yml" 2>/dev/null
     elif [[ "$selected_url" == *"nothing-sni"* ]]; then
